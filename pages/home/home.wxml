@@ -1,3 +1,28 @@
 <!--pages/home/home.wxml-->
-<text class="title">hello world</text>
+<!-- 小程序数据绑定 {{}}--Mustache语法-->
+<view>hello world</view>
+<text>你好世界\n</text>
+<text selectable="{{true}}">hello world\n</text>
+
+<!-- 文本空格 大小 -->
+<text space="ensp">hello world \n</text>
+<text space="emsp">hello world \n</text>
+<text space="nbsp">hello world \n</text>
+<text>hello world \n</text>
+
+<!-- decode -->
+<text>5&gt;3\n</text>
+<text decode>5&gt;3</text>
+
+
+<!-- button组件 -->
+<!-- button基本使用 -->
+<button>按钮</button>
 <button size="mini">按钮</button>
+<button size="mini">按钮</button>
+<button size="mini" type="primary">按钮</button>
+<button size="mini" type="warn">按钮</button>
+<button size="mini" type="default">按钮</button>
+<!-- plain效果 -->
+<button size="mini" plain>按钮</button>
+<button size="mini" loading="{{true}}">按钮</button>

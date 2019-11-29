@@ -1,11 +1,11 @@
-// pages/home/home.js
-const app=getApp();//可以通过其 获取全局变量
+// pages/category/category.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+
   },
 
   /**
